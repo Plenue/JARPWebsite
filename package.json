@@ -1,0 +1,23 @@
+{
+  "name": "jeerankpredictor",
+  "version": "1.0.0",
+  "description": "Rank Prediction App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plenue/JeeRankPredictor-Web.git"
+  },
+  "author": "Shashi Kumar Fagna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Plenue/JeeRankPredictor-Web/issues"
+  },
+  "homepage": "https://github.com/Plenue/JeeRankPredictor-Web#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,19 @@
+<%- include('partials/header'); -%>
+<section style="height: 562px;">
+    <div class="container">
+        <div class="row align-items-center" style="height: 800px;">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="rounded-circle img-fluid" src="img/Bookworm%20vector%202.svg?h=19e3bd969b02de52b2cab7f53d56bf60"></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4"><%= rank %></h2>
+                    <p>This prediction is based on model results. Your Rank may vary a little bit depending upon the range. Error in prediction increses as rank goes above 4000.</p>
+                    <form class ="" action = "/result" method="post"><button class="btn btn-outline-dark text-monospace text-center" name="reset" type="submit">Get Again</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <div ><%- include('partials/footer'); -%></div> -->
+
